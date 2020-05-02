@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
+		<link rel="stylesheet" href="main.css">
+		<title>Ingegneria Gestionale</title>
+	</head>
+	<body class="">
+		<script>
+			document.addEventListener('DOMContentLoaded', () => {
+
+			  // Get all "navbar-burger" elements
+			  const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+			  // Check if there are any navbar burgers
+			  if ($navbarBurgers.length > 0) {
+
+				// Add a click event on each of them
+				$navbarBurgers.forEach( el => {
+				  el.addEventListener('click', () => {
+
+					// Get the target from the "data-target" attribute
+					const target = el.dataset.target;
+					const $target = document.getElementById(target);
+
+					// Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+					el.classList.toggle('is-active');
+					$target.classList.toggle('is-active');
+
+				  });
+				});
+			  }
+
+			});
+		</script>
+		<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+		<nav class="navbar" role="navigation" aria-label="menu" aria-expanded="false" data-target="headerNavbar">
+			<div class="container">
+				<div class="navbar-brand">
+					<a href="#" class="navbar-item">
+						<img src="assets/img/ig4_300dpi.png" alt="">
+					</a>
+
+					<a role="button" class="navbar-burger burger" aria-label="menu" data-target="navbarHeader">
+						<span aria-hidden="true"></span>
+						<span aria-hidden="true"></span>
+						<span aria-hidden="true"></span>
+					</a>
+				</div>
+
+				<div class="navbar-menu" id="navbarHeader">
+					<div class="navbar-end">
+						<a href="" class="navbar-item is-active">Home</a>
+						<a href="" class="navbar-item">About us</a>
+						<a href="" class="navbar-item">Events</a>
+						<a href="" class="navbar-item">Contacts</a>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<!--
+		<figure class="image">
+			<img src="assets/cimg/ig_grattacieli.png" alt="">
+			<div class="has-text-centered testo-sparato">
+				<h1 class="title is-size-4-mobile">INGEGNERIA GESTIONALE</h1>
+				<h2 class="subtitle">Where people create connections</h2>
+			</div>
+		</figure>
+		-->
+		<!--
+		<header class="has-text-centered has-text-white">
+				<h1 class="is-size-1">INGEGNERIA GESTIONALE</h1>
+				<h2 class="is-size-4">Where people create connections</h2>
+		</header>
+		<div class="parallax">
+		</div>
+		-->
+		<div class="has-text-centered testo-sparato">
+			<h1 class="title is-size-4-mobile">INGEGNERIA GESTIONALE</h1>
+			<h2 class="subtitle">Where people create connections</h2>
+		</div>
+		<section class="section">
+			<div class="container">
+				<h3 class="title is-4">About us</h3>
+				<p>Ingegneria Gestionale (ig) is a team of young people that is completely focused on creating the largest world community to close the gap between students, professionals and entrepreneurs.</p>
+				<br>
+				<p>We believe that creating a strong ecosystem of people interested in management and entrepreneurship will train successful people enhancing a brighter professional career.</p>
+				
+				
+			</div>
+		</section>
+		<section class="section">
+			<div class="container">	
+			<h3 class="title is-4">What we offer</h3>
+				<div class="columns">
+					<div class="column"><i class="icon is-large fas fa-calendar-alt"></i>cazzi</div>
+					<div class="column">grossi</div>
+					<div class="column">e duri</div>
+					</div>
+			</div>
+		</section>
+		<section class="section">
+			<div class="container">
+				<div class="columns">
+					<div class="column">
+						<div class="card">
+							<div class="card-image">
+								<figure class="image">
+									<img src="assets/img/Eugenio_sfondo_bianco.png" alt="">
+								</figure>
+							</div>
+							<div class="card-content">
+								<div class="media">
+									<div class="media-left social">
+									<a href="linkedin.com">
+										<i class="icon is-large fab fa-linkedin"></i>
+										</a>
+									</div><!--Mettere svg-->
+									<div class="media-content">
+										<p class="title is-size-3">
+											Eugenio Cannata
+										</p>
+										<p class="subtitle">Head of big head</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="column">
+						<div class="card">
+							<div class="card-image">
+								<figure class="image is-1-by-1"><img src="assets/img/Eugenio_sfondo_bianco.png" alt=""></figure>
+							</div>
+						</div>
+					</div>
+					<div class="column">
+						<div class="card">
+							<div class="card-image">
+								<figure class="image is-1-by-1"><img src="assets/img/Eugenio_sfondo_bianco.png" alt=""></figure>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</body>
+</html>
