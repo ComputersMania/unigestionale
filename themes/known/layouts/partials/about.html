@@ -1,0 +1,22 @@
+{{ with .Site.Data.homepage.about }}
+<section id="about">
+     <div class="container">
+        <div class="about-info">
+            <h2>{{ .title }}</h2>
+            {{ with .desc }}<p>{{ . }}</p>{{ end }}
+            {{ with .title2 }}<br/><h3>{{ . }}</h3><br/>{{ end }}
+            <div class="row">
+            {{ range .items }}
+                 <div class="col-md-4 col-sm-4">
+                     <div class="feature-thumb">
+                         <span><i class="fa {{ .icon }}"></i></span>
+                         <h3>{{ .title }}</h3>
+                         <p>{{ .desc }}</p>
+                     </div>
+                 </div>
+            {{ end }}
+            </div>
+        </div>
+     </div>
+</section>
+{{ end }}

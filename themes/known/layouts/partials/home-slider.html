@@ -1,0 +1,19 @@
+{{ with .Site.Data.homepage.slider }}
+<section id="home">
+  <div class="row">
+    <div class="owl-carousel owl-theme home-slider">
+         <div class="item item-first">
+              <div class="caption">
+                   <div class="container">
+                        <div class="col-md-6 col-sm-12">
+                             <h1>{{ .title }}</h1>
+                             <h3>{{ .subtitle }}</h3>
+                             {{/* <a href="#feature" class="section-btn btn btn-default smoothScroll">Discover more</a> */}}
+                        </div>
+                   </div>
+              </div>
+         </div>
+    </div>
+  </div>
+</section>
+{{ end }}

@@ -1,0 +1,9 @@
+title: Our team
+subtitle: Una frase di un rigo mo' non me la ricordo
+members:
+    - name: Eugenio Pascale
+      role: CEO of operations
+      imagelink: bravo.png
+      social:
+          - link: https://youtube.com
+            icon: fa-youtube

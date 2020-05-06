@@ -1,0 +1,17 @@
+author: Vincenzo Pellegrini
+logo: UniGestionale
+menu:
+    - name: Home
+      link: "#top"
+    - name: About Us
+      link: "#about"
+    - name: Our team
+      link: "#team"
+footer:
+    social:
+        - icon: fa-instagram
+          link: https://instagram.com
+        - icon: fa-linkedin
+          link: https://instagram.com
+        - icon: fa-telegram
+          link: https://didattica.polito.it
