@@ -5,6 +5,12 @@
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
+    ],
+    "headers": [
+        {
+            "source": "/",
+            "headers": [{"key": "Link", "value": "<js/bootstrap.min.js>;rel=preload;as-script,<js/custom.js>;rel=preload;as-script,<js/jquery.js>;rel=preload;as-script,<js/owl.carousel.min.js>;rel=preload;as-script,<js/smoothscroll.js>;rel=preload;as-script,</css/bootstrap.min.css>;rel=preload;as=style,</css/font-awesome.min.css>;rel=preload;as=style,</css/owl.carousel.css>;rel=preload;as=style,</css/owl.theme.default.min.css>;rel=preload;as=style,</css/templatemo-style.css>;rel=preload;as=style"}]
+        }
     ]
   }
 }
