@@ -5,12 +5,12 @@ menu:
       link: "#top"
     - name: About Us
       link: "#about"
-    - name: Our team
-      link: "#team"
     - name: Guests
       link: "#courses"
+    - name: Our team
+      link: "#team"
 menusocial:
-    link: https://instagram.com
+    link: https://instagram.com/ingegneriagestionalepolito?igshid=10bn61kp0zd1o
     icon: fa-instagram
 footer:
     mail: info@unigestionale.it
