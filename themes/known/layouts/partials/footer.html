@@ -8,6 +8,7 @@
                               <h2>Contact us</h2>
                          </div>
 
+                         <a href="mailto://{{.Site.Params.footer.mail}}">{{.Site.Params.footer.mail}}</a>
                          <ul class="social-icon">
                              {{ range .Site.Params.footer.social }}
                                 <li><a href="{{ .link }}" class="fa {{ .icon }}"></a></li>

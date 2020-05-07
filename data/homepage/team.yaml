@@ -1,9 +1,26 @@
 title: Our team
-subtitle: Una frase di un rigo mo' non me la ricordo
 members:
-    - name: Eugenio Pascale
-      role: CEO of operations
+    - name: Eugenio Cannata
+      role: President
       imagelink: bravo.png
       social:
-          - link: https://youtube.com
-            icon: fa-youtube
+          - link: https://www.linkedin.com/in/eugenio-cannata-6a6065190/
+            icon: fa-linkedin
+    - name: Giuseppe Pronestì
+      role: Vicepresident
+      imagelink: uomo_immane.png
+      social:
+          - link: https://www.linkedin.com/in/giuseppe-pronesti-a4a66b1a8/
+            icon: fa-linkedin
+    - name: Andrea Del Pero
+      role: Head of Marketing
+      imagelink: simpson.png
+      social:
+          - link: https://www.linkedin.com/in/andrea-del-pero-42a204196/
+            icon: fa-linkedin
+    - name: Matteo Scimmi
+      role: Head of Communication
+      imagelink: stellina.png
+      social:
+          - link: https://www.linkedin.com/in/matteo-scimmi-07951a193/
+            icon: fa-linkedin

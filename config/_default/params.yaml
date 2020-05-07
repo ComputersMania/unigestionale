@@ -7,11 +7,17 @@ menu:
       link: "#about"
     - name: Our team
       link: "#team"
+    - name: Guests
+      link: "#courses"
+menusocial:
+    link: https://instagram.com
+    icon: fa-instagram
 footer:
+    mail: info@unigestionale.it
     social:
         - icon: fa-instagram
-          link: https://instagram.com
+          link: https://instagram.com/ingegneriagestionalepolito?igshid=10bn61kp0zd1o
         - icon: fa-linkedin
-          link: https://instagram.com
+          link: https://www.linkedin.com/company/unigestionale/
         - icon: fa-telegram
-          link: https://didattica.polito.it
+          link: https://t.me/joinchat/AAAAAEtu7iUJPGnlCWca8A

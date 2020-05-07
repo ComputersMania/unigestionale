@@ -6,11 +6,11 @@ desc: >
 title2: What we offer
 items:
     - title: Events
-      desc: We host experienced management professionals and successful entrepreneurs as our guest speakers.
+      desc: We host experienced management professionals and successful entrepreneurs as our guest speakers, in order to receive advices and training.
       icon: fa-calendar
-    - title: aaaaabbbbbbbbbb
-      desc: bbbbbbbbbbbbbbbbfadfdsa fsfafsdfsafdsfdsafdsfdfdsfdsfdfdasffdfdfdfd fahjkfdhjksdtiodfhkfhjklfhjkdlajfdksalfhjdskalfhdjkal hfdjskaf
-      icon: fa-facebook
-    - title: aaaaabbbbbbbbbb
-      desc: bbbbbbbbbbbbbbbbfadfdsa fsfafsdfsafdsfdsafdsfdfdsfdsfdfdasffdfdfdfd  fahjkfdhjksdtiodfhkfhjklfhjkdlajfdksalfhjdskalfhdjkal hfdjskaf
-      icon: fa-facebook
+    - title: Workshops
+      desc: We organise business games, workshops and case studies with our partners, such as consulting firms and corporate sponsors, for career advices.
+      icon: fa-group
+    - title: Networking
+      desc: We offer invaluable opportunities to create professional and personal relationships between young people that share a common passion for management.
+      icon: fa-comments
