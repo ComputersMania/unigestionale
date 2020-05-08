@@ -1,22 +1,32 @@
 title: Our Guests
 items:
-    - name: Carlo Cottarelli
-      role: Executive Director at OCPI
-      image: 4.png
-      date: 8 May 2020
-      time: 18:30
-    - name: Salvatore Palella
-      role: CEO of Helbiz
-      image: Salvatore-Palella.jpg
-      date: 18 April 2020
-      time: 19:00
     - name: Giada Zhang
       role: CEO of Mulan Group
       image: 2.png
       date: 10 May 2020
+      time: 18:30
+    - name: Carlo Cottarelli
+      role: Executive Director at OCPI
+      image: 4.png
+      date: 8 May 2020
       time: 18:30
     - name: Pina Amarelli
       role: President of Amarelli
       image: 3.png
       date: 2 May 2020
       time: 18:30
+    - name: Pietro Reho
+      role: Business Analyst
+      image: reo.png
+      date: 25 April 2020
+      time: 19:30
+    - name: Salvatore Palella
+      role: CEO of Helbiz
+      image: Salvatore-Palella.jpg
+      date: 18 April 2020
+      time: 19:00
+    - name: Enrico Pandian
+      role: Founder of FrescoFrigo
+      image: pandian.png
+      date: 10 April 2020
+      time: 19:00
